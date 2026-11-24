@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Elif Yavuz | Kişisel Web Sitesi</title>
+  
+  <!-- Favicon: Maskot görseli -->
+  <link rel="icon" type="image/jpeg" href="resimler/maskot.png.jpg">
+  
+  <!-- Google Fonts: Cormorant Garamond & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Sabit Üst Menü -->
+  <header class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#kapak" class="nav-brand">Elif Yavuz</a>
+      
+      <button class="nav-toggle" id="navToggle" aria-label="Menüyü aç ve kapat">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+
+      <nav class="nav-menu" id="navMenu">
+        <ul class="nav-list">
+          <li><a href="#kapak" class="nav-link active">Kapak</a></li>
+          <li><a href="#hakkimda" class="nav-link">Hakkımda</a></li>
+          <li><a href="#ilgi-alanlarim" class="nav-link">İlgi Alanlarım</a></li>
+          <li><a href="#iletisim" class="nav-link">İletişim</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- 1. Bölüm: Kapak (Tam Ekran Yüksekliğinde) -->
+  <section class="hero-section" id="kapak">
+    <!-- CSS Parıltı Efekti Elemanları -->
+    <div class="sparkle-spark sparkle-1" aria-hidden="true"></div>
+    <div class="sparkle-spark sparkle-2" aria-hidden="true"></div>
+    <div class="sparkle-spark sparkle-3" aria-hidden="true"></div>
+    <div class="sparkle-spark sparkle-4" aria-hidden="true"></div>
+
+    <div class="hero-container">
+      <div class="hero-image-frame shimmer-box">
+        <img 
+          src="resimler/kapak.png.jpg" 
+          alt="Pastel pembe tonlarında masalsı nehir vadisi, kıyıda oturan pembe kurdeleli sevimli beyaz tavşan ve dantel işlemeli köy evleri" 
+          class="hero-img"
+        >
+      </div>
+
+      <div class="hero-content">
+        <span class="hero-badge">Kişisel Günlük &amp; Portfolyo</span>
+        <h1 class="hero-title">Elif Yavuz</h1>
+        <p class="hero-intro">Zarafet, edebiyat ve melodilerle dokunmuş huzurlu ve ilham verici kişisel bir dünya.</p>
+        <div class="hero-action">
+          <a href="#hakkimda" class="coquette-btn">Keşfetmeye Başla</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. Bölüm: Hakkımda -->
+  <section class="section about-section" id="hakkimda">
+    <div class="section-container">
+      <div class="section-header">
+        <span class="section-tag">Zarif Notlar</span>
+        <h2 class="section-title">Hakkımda</h2>
+        <div class="lace-divider" aria-hidden="true"></div>
+      </div>
+
+      <div class="about-card shimmer-box">
+        <div class="about-mascot-wrapper">
+          <img 
+            src="resimler/maskot.png.jpg" 
+            alt="Kulağında pembe fiyonk bulunan sevimli beyaz tavşan maskotu" 
+            class="about-mascot-img"
+          >
+          <div class="mascot-frame-lace" aria-hidden="true"></div>
+        </div>
+
+        <div class="about-text-content">
+          <h3 class="about-greeting">Merhaba, ben Elif</h3>
+          <p class="about-paragraph">
+            Edebiyat, müzik ve dansın zarif ahenginden ilham alarak kendi hayal dünyamı kelimelerle ve notalarla örüyorum. Bu kişisel sayfada, pastel pembe tonların sıcaklığıyla harmanlanmış samimi ve ilham verici bir dergi sayfası atmosferini sizlerle paylaşıyorum. Günlük tutmaktan bas gitarımın tellerine dokunmaya kadar uzanan tüm tutkularımla, burada kendime özgü küçük ve dingin bir sığınak kurdum.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. Bölüm: İlgi Alanlarım (Üç Kart) -->
+  <section class="section interests-section" id="ilgi-alanlarim">
+    <div class="section-container">
+      <div class="section-header">
+        <span class="section-tag">Tutkular &amp; İlham Kaynakları</span>
+        <h2 class="section-title">İlgi Alanlarım</h2>
+        <div class="lace-divider" aria-hidden="true"></div>
+      </div>
+
+      <div class="interests-grid">
+        <!-- Kart 1: Okuma ve Yazma -->
+        <article class="interest-card shimmer-box">
+          <div class="card-img-wrapper">
+            <img 
+              src="resimler/kart-1.png.jpg" 
+              alt="Antika masa üstünde açık günlük, dolma kalem, kitaplar ve fincan ile sakin okuma ve yazma köşesi" 
+              class="card-img"
+            >
+          </div>
+          <div class="card-body">
+            <span class="card-number">01</span>
+            <h3 class="card-title">Okuma ve Yazma</h3>
+            <p class="card-text">
+              Kitap sayfalarının huzurlu kokusunda kaybolmak, yeni dünyaları keşfetmek ve günün en naif anlarını satır satır günlüğüme dökmek en büyük dinginliğim.
+            </p>
+          </div>
+        </article>
+
+        <!-- Kart 2: Müzik -->
+        <article class="interest-card shimmer-box">
+          <div class="card-img-wrapper">
+            <img 
+              src="resimler/kart-2.png.jpg" 
+              alt="Gül yaprakları ve notalar arasında bas gitar, nostaljik plaklar ve kulaklık" 
+              class="card-img"
+            >
+          </div>
+          <div class="card-body">
+            <span class="card-number">02</span>
+            <h3 class="card-title">Müzik</h3>
+            <p class="card-text">
+              Bas gitarın derin tınılarıyla kendi melodilerimi aramak, eski plakların cızırtılı nostaljisinde dinginleşmek ve hayatı ritimlerle hissetmek.
+            </p>
+          </div>
+        </article>
+
+        <!-- Kart 3: Dans Etmek -->
+        <article class="interest-card shimmer-box">
+          <div class="card-img-wrapper">
+            <img 
+              src="resimler/kart-3.png.jpg" 
+              alt="Pastel sahnede pembe tütü ve tüller içinde zarafetle süzülen bale dansçısı" 
+              class="card-img"
+            >
+          </div>
+          <div class="card-body">
+            <span class="card-number">03</span>
+            <h3 class="card-title">Dans Etmek</h3>
+            <p class="card-text">
+              Müziğin akışına kendini bırakarak hareketin zarafetini yakalamak; her adımda hafifliği, estetiği ve duyguların özgür dansını yaşamak.
+            </p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. Bölüm: İletişim -->
+  <section class="section contact-section" id="iletisim">
+    <div class="section-container">
+      <div class="section-header">
+        <span class="section-tag">Bana Ulaşın</span>
+        <h2 class="section-title">İletişim</h2>
+        <div class="lace-divider" aria-hidden="true"></div>
+      </div>
+
+      <div class="contact-box shimmer-box">
+        <p class="contact-description">
+          Düşüncelerinizi paylaşmak, editoryal projeler hakkında konuşmak ya da sadece samimi bir merhaba demek isterseniz bana e-posta üzerinden dilediğiniz zaman yazabilirsiniz.
+        </p>
+        
+        <div class="contact-email-container">
+          <span class="contact-label">E-posta Adresi</span>
+          <a href="mailto:elifyavuz@example.com" class="contact-email-link">
+            elifyavuz@example.com
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Alt Bilgi (Footer) -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="lace-divider footer-divider" aria-hidden="true"></div>
+      <p class="footer-name">Elif Yavuz</p>
+      <p class="footer-copy">Tüm hakları saklıdır &bull; 2026</p>
+      <p class="ai-notice">Bu sitedeki görseller yapay zekâ ile üretildi.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
